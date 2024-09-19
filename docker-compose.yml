@@ -1,0 +1,11 @@
+services:
+  php-apache:
+    image: kschnieders/spotify-redirect:latest
+    container_name: spotify-redirect
+    environment:
+      - SPOTIFY_CLIENT_ID=your-client-id
+      - SPOTIFY_CLIENT_SECRET=your-client-secret
+      - SPOTIFY_ARTIST_ID=your-artist-id
+    ports:
+      - "80:80"
+    restart: always

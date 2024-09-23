@@ -9,6 +9,8 @@ https://developer.spotify.com/terms/
 
 Please note that use of the Spotify API is subject to certain usage limitations, and you must comply with Spotify's licensing and policies.
 
+---
+
 php:8.1-apache Docker Image
 The php:8.1-apache Docker image is a combination of multiple open-source components, primarily the PHP programming language and the Apache HTTP Server.
 
@@ -17,6 +19,8 @@ https://www.php.net/license/3_01.txt
 
 Apache License: The Apache HTTP Server is licensed under the Apache License, version 2.0. You can find the full license text here:
 https://www.apache.org/licenses/LICENSE-2.0.txt
+
+---
 
 Docker itself follows the Apache License 2.0. More details about the image can be found in the official Docker Hub page for php:8.1-apache:
 https://hub.docker.com/_/php
